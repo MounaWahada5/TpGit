@@ -1,0 +1,26 @@
+Path	Description	X-Ref
+./bashdb	Deprecated sample implementation of a bash debugger	
+
+./complete	Shell completion code	
+
+./functions	Example functions	
+./functions/array-stuff	Various array functions (ashift, array_sort, reverse).	
+./functions/array-to-string	Convert an array to a string.	
+./functions/autoload	An almost ksh-compatible 'autoload' (no lazy load).	ksh
+./functions/autoload.v2	An almost ksh-compatible 'autoload' (no lazy load).	ksh
+./functions/autoload.v3	A more ksh-compatible 'autoload' (with lazy load).	ksh
+./functions/basename	A replacement for basename(1).	basename
+./functions/basename2	Fast basename(1) and dirname(1) functions for BASH/SH.	basename, dirname
+./functions/coproc.bash	Start, control, and end coprocesses.	
+./functions/coshell.bash	Control shell coprocesses (see coprocess.bash).	
+./functions/coshell.README	README for coshell and coproc.	
+./functions/csh-compat	A C-shell compatibility package.	csh
+./functions/dirfuncs	Directory manipulation functions from the book 'The Korn Shell'.	
+./functions/dirname	A replacement for dirname(1).	dirname
+./functions/emptydir	Find out if a directory is empty.	
+./functions/exitstat	Display the exit status of processes.	
+./functions/external	Like 'command' but FORCES use of external command.	
+./functions/fact	Recursive factorial function.	
+./functions/fstty	Front end to sync TERM changes to both stty(1) and readline 'bind'.	stty.bash
+./functions/func	Print out definitions for functions named by arguments.	
+./functions/gethtml	Get a web page from a remote server (wget(1)
